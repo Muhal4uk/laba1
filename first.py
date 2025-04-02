@@ -22,4 +22,4 @@ text = "кіт пес кіт миша кіт кіт пес"
 word_counts = count_word_occurrences(text)
 words_more_than_3 = find_words_more_than_n_times(word_counts, 3)
 
-print(words_more_than_3)
+print(words_more_than_3) 

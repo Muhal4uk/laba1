@@ -13,9 +13,8 @@ user_data = {
     "password_hash": hashlib.md5("secure_password".encode()).hexdigest(),  # Зашифрований пароль
     "full_name": "Іван Іванович Іванов"
 }
-
 def check_password(input_password):
-    """Функція для перевірки введеного паролю."""
+    #Функція для перевірки введеного паролю.
     # Хешуємо введений пароль
     input_password_hash = hashlib.md5(input_password.encode()).hexdigest()
     
